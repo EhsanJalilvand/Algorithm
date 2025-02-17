@@ -5,7 +5,7 @@ using BenchmarkDotNet.Running;
 
 //BenchmarkRunner.Run<TestCLass>();
 int[] array = new int[] {5,14,2,34,91,8,2,17,6 };
- 
+
 //var sorted = array.QuickSort();
 //var sorted = array.BubbleSort();
 //var sorted = array.InsertionSort();
@@ -20,7 +20,14 @@ int[] array = new int[] {5,14,2,34,91,8,2,17,6 };
 //var isFound= array.BinarySearch(x)!=-1;
 //Console.WriteLine($"\n{x} Is :"+(isFound?"Finded":"Not Found"));
 
-//Console.ReadLine();
+Tree treeLinkedList= new Tree();    
+foreach (int i in array)
+{
+    treeLinkedList.Insert(i);
+}
+
+
+Console.ReadLine();
 
 
 

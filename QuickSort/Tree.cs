@@ -7,6 +7,7 @@ namespace QuickSort
         private int index = 1;
         public void Insert(int value)
         {
+            index = 1;
             while (true)
             {
                 if (index > list.Count)
